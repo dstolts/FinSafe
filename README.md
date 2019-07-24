@@ -1,7 +1,33 @@
 # FinSafe
 OpenHack governance for highly regulated environments such as Financial Services
 
+
+
+To Do: 
+work with real customer in a sample workshop?  Sample Adoption?
+
+## Background
+Security Blockers Sprint #1 Complete
+- Automated Deployment Tool Azure DevOps for automated pipeline 
+- Shared Services created
+- Landing Zone Created
+- minimum policy deployed
+- Virtual Datacenter (VDC) Shared Service
+
+Sprint #2 - Enhance and deploy workload
+
+
+
 ## Environment setup 
+- 2 AAD Tenants (AAD P2)
+  - B2B Org relationships
+- 3 Sandbox
+  - 1 - cloud team
+  - 1 - Dev / Business Unit
+  - 1 - Empty test policy
+- 2 Non-Prod (Shared Service, Landing Zone)
+- 2 Prod (Shared Service, Landing Zone)
+
 
 - **Accounts**: The attendees have been provided a specific account for the event. It is recommended that they use their browser in private mode.  
 
@@ -17,6 +43,34 @@ OpenHack governance for highly regulated environments such as Financial Services
 
 
 ## Challenge 1 - Foundation
+Goals: 
+- Organization Readiness
+- Business Problem Identification and Understaning
+- introduction to CAF Framework
+- review Foundation Already created - Understand tenant, subscription, RG
+- Create Management Group Structure
+- Assign Team Roles
+
+Outcomes: 
+- Summarize pre-created foundation & resource strategy
+- Management Group Structure - Self-service portal; process
+- Publish basic **shared dashboard** to communicate strategy
+- Assign and create cloud team responsiblities (Hint: Complance Manager with RBAC)
+  - CISO
+  - CAF Discipline Owner
+     - Collaboration Strategy (Team Name, [Tools: Slack, Teams, Hangouts, ???])
+     - 
+
+
+Technology Tools/Services/Lessons:
+- Converting Business Challenge to Technology Solution
+- Cloud Adoption Framework
+- Resource Groups
+- Management Groups
+- Shared Dashboard
+- Compliance Manager
+- RBAC
+
 
 In this challenge you will learn the foundational security and governance knowledge needed to begin your journey. This includes: 
 - Foundation
@@ -27,16 +81,34 @@ In this challenge you will learn the foundational security and governance knowle
 
 ![](images/caf-best-practices.png?raw=true)
 
-![](images/regulatory-boundaries.png?raw=true)
+
+
+
+- **Clear Definition of Governance**
+
+Governance is all of the processes of governing, whether undertaken by a government, market or network, whether over a family, tribe, formal or informal organization or territory and whether through the laws, norms, power or language of an organized society.
+
+It relates to "the processes of interaction and decision-making among the actors involved in a collective problem that lead to the creation, reinforcement, or reproduction of social norms and institutions."
+
+In lay terms, it could be described as the political processes that exist in between formal institutions.
+
+ 
+
+How to implement Governance - Minimal Viable Governance - MVG
+
+
 
 
 to are expected to validate the following points: 
+
+
 
 - **IMPORTANT**: ....
 
 ## Challenge 2 - Identity Baseline
 
 This challenge is about identity and privilage. 
+![](images/regulatory-boundaries.png?raw=true)
 
 
 
