@@ -27,7 +27,12 @@ Sprint #2 - Enhance and deploy workload
   - 1 - Empty test policy
 - 2 Non-Prod (Shared Service, Landing Zone)
 - 2 Prod (Shared Service, Landing Zone)
-
+- Foundation pre-created tenant, subscription, RG, MG, Security Policy
+- Azure DevOps?
+- Create alert for add users to network administrator - send to manager and CISO
+- Secure Score #
+  - Identity
+  - Azure
 
 - **Accounts**: The attendees have been provided a specific account for the event. It is recommended that they use their browser in private mode.  
 
@@ -47,7 +52,7 @@ Goals:
 - Organization Readiness
 - Business Problem Identification and Understaning
 - introduction to CAF Framework
-- review Foundation Already created - Understand tenant, subscription, RG
+- Review Foundation Already created - Understand tenant, subscription, RG, MG, Security Policy
 - Create Management Group Structure
 - Assign Team Roles
 
@@ -59,7 +64,7 @@ Outcomes:
   - CISO
   - CAF Discipline Owner
      - Collaboration Strategy (Team Name, [Tools: Slack, Teams, Hangouts, ???])
-     - 
+  - Workload Owner
 
 
 Technology Tools/Services/Lessons:
@@ -108,6 +113,39 @@ to are expected to validate the following points:
 ## Challenge 2 - Identity Baseline
 
 This challenge is about identity and privilage. 
+
+
+
+Goals: 
+Single identity and SSO across all subs and tenants
+- Create access reviews for all admin roles
+  - CISO - Security Reader & Admin role
+  - Network Admin
+  - Policy Admin 
+  - Compliance manager
+  - Keyvault Admin
+  - Identity Admin
+  - Operations - Log Analytics
+  - Identity Admin - Global Admin
+    - PIM Admin
+    - Magic Button
+- Impliment Just In Time (JIT) and Just Enough Access (JEA) roles above
+  - Investigate your roles & access (PIM)
+  - Move to eligible vs permanent 
+  - Workload & Business ID's
+    - Identify Pre-created workload owner rights
+    - apply PIM
+  - Add PIM Audit Data to CISO Dashboard
+  - Deliver alerts 
+Outcomes:
+
+Technology Tools/Services/Lessons:
+- Privelidge Identity Management (PIM)
+- Just In Time management (JIT)
+- Just Enough Access (JEA)
+- W
+
+
 ![](images/regulatory-boundaries.png?raw=true)
 
 
