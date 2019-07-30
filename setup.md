@@ -7,7 +7,8 @@ To Do:
 work with real customer in a sample workshop?  Sample Adoption?  
 
 ## Background
-Security Blockers Sprint #1 Complete
+Security Blockers 
+Sprint #1 Complete
 - Automated Deployment Tool Azure DevOps for automated pipeline 
 - Shared Services created
 - Landing Zone Created
